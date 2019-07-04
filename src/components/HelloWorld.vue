@@ -1,5 +1,9 @@
 <template>
   <div>
+    <img
+      class="logo"
+      src="../../assets/img/logo.png"
+    >
     <h1>{{ hello }}</h1>
   </div>
 </template>
@@ -13,3 +17,10 @@ export default {
   }
 }
 </script>
+
+<style module>
+.logo {
+    height: 150px;
+    width: 150px;
+}
+</style>
