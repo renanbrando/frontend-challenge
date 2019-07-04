@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Helloworld/>
+    <Helloworld />
   </div>
 </template>
 
@@ -9,15 +9,15 @@
 import Helloworld from './components/HelloWorld.vue'
 
 export default {
-    components:{
-        Helloworld
-    },
-    data() {
-        return {
-            message: 'Hello World',
-        };
-    },
-};
+  components: {
+    Helloworld
+  },
+  data () {
+    return {
+      message: 'Hello World'
+    }
+  }
+}
 </script>
 
 <style>
