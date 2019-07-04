@@ -1,12 +1,12 @@
 <template>
-  <div id="app">
+  <div id="app" class="content">
     <Helloworld />
   </div>
 </template>
 
 <script>
 
-import Helloworld from './components/HelloWorld.vue'
+import Helloworld from '@/components/HelloWorld.vue'
 
 export default {
   components: {
